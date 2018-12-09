@@ -1,0 +1,53 @@
+{
+  "header": {
+    "nav": {
+      "backHome": "Back to Home",
+      "about": "About",
+      "news": "News",
+      "campus": "Campus",
+      "enrollment": "Enrollment",
+      "research": "Research",
+      "recruit": "recruit",
+      "search": "Search"
+    }
+  },
+  "news": {
+    "header": {
+      "title": "Title",
+      "content": "Content",
+      "publishedAt": "Published at"
+    },
+    "footer": {
+      "relatedItems": {
+        "news": "Related News",
+        "notice": "Related Notices",
+        "link": "Related Links"
+      }
+    }
+  },
+  "home": {
+    "campus": "Campus",
+    "news": "News",
+    "events": "Events",
+    "institutional": "About Us",
+    "joinUs": "Join Us"
+  },
+  "footer": {
+    "links": {
+      "name": "Links",
+      "comment": "Leave Comment",
+      "campus": "Campus",
+      "email": "Mail System",
+      "infoCenter": "Info Center"
+    },
+    "campus": {
+
+    },
+    "teachingResources": {
+
+    },
+    "recommendedSites": {
+
+    }
+  }
+}

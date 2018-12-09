@@ -1,0 +1,53 @@
+{
+  "header": {
+    "nav": {
+      "backHome": "回到主页",
+      "about": "机构概况",
+      "news": "新闻活动",
+      "campus": "校园介绍",
+      "enrollment": "招生信息",
+      "research": "学术研究",
+      "recruit": "人才招募",
+      "search": "搜索"
+    }
+  },
+  "news": {
+    "header": {
+      "title": "标题",
+      "content": "内容",
+      "publishedAt": "发布于"
+    },
+    "footer": {
+      "relatedItems": {
+        "news": "相关新闻",
+        "notice": "相关通知",
+        "link": "相关链接"
+      }
+    }
+  },
+  "home": {
+    "campus": "校园介绍",
+    "news": "新闻活动",
+    "events": "事件",
+    "institutional": "机构概况",
+    "joinUs": "人才招募"
+  },
+  "footer": {
+    "links": {
+      "name": "快速链接",
+      "comment": "机构信箱",
+      "campus": "校园平台",
+      "email": "邮件系统",
+      "infoCenter": "信息中心"
+    },
+    "campus": {
+
+    },
+    "teachingResources": {
+
+    },
+    "recommendedSites": {
+
+    }
+  }
+}

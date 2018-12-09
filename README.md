@@ -1,4 +1,4 @@
-# Best Educational Organization New Website Developing
+# Best Educational Organization New Website Development
 
 ## Git Model (please follow)
 ![Git Model (from https://nvie.com/posts/a-successful-git-branching-model/)](https://github.com/GalvinGao/bestsch-web/blob/develop/docs/git-model-demo.png)
