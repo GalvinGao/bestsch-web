@@ -11,14 +11,13 @@
 
 <script>
   import Header from '@/components/Frames/Header'
-  import anime from 'animejs'
 
   export default {
     name: 'App',
     components: {
       Header
     },
-    data() {
+    data () {
       return {
         animationCompleted: false
       }
@@ -26,34 +25,31 @@
     methods: {
       beforeEnter () {
         var $el = this.$refs.appRoot
-        anime({
-          targets: $el,
-          scale: [1, 0.9],
-          easing: 'easeOutExpo',
-          duration: 300,
-          complete: function() {
-            this.animationCompleted = true
-          }
-        })
+        $el.classList.add("is-loading")
       },
       afterLeave () {
         var $el = this.$refs.appRoot
-        if (this.animationCompleted) {
-          anime({
-            targets: $el,
-            scale: [0.9, 1],
-            easing: 'easeOutExpo',
-            duration: 300,
-            complete: function() {
-              this.animationCompleted = false
-            }
-          })
-        }
-
+        setTimeout(() => { $el.classList.remove("is-loading") }, 1500)
       }
     }
   }
 </script>
+
+<style>
+  #appRoot {
+    transition: all 625ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .is-loading {
+    filter: blur(10px);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9);
+    transform-origin: top center;
+  }
+</style>
 
 <style lang="scss">
   // Import Bulma's core

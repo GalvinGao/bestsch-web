@@ -4,7 +4,7 @@
     <nav class="navbar">
       <div class="navbar-brand">
         <router-link class="navbar-item" :to="{ name: 'home' }">
-          <img src="~../../assets/header-logo.png" alt="Bulma: a modern CSS framework based on Flexbox">
+          <img src="~../../assets/header-logo.png" :alt="$t('header.nav.logo')" :title="$t('header.nav.backHome')">
         </router-link>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" @click="toggleBurger">
           <span></span>

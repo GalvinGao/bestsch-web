@@ -4,7 +4,7 @@ import store from './store'
 import i18n from './i18n'
 import Buefy from 'buefy'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+import Home from './views/Home'
 
 Vue.use(Router);
 
